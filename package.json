@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-cleanjs",
+  "version": "0.0.0",
+  "description": "An eslint config which reduces JS to a pure functional language",
+  "main": "index.js",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Bodil Stokke",
+  "license": "LGPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodil/eslint-config-cleanjs.git"
+  },
+  "peerDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-plugin-better": "^0.1.5",
+    "eslint-plugin-immutable": "^1.0.0"
+  }
+}
