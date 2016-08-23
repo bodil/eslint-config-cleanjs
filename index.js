@@ -1,38 +1,36 @@
 module.exports = {
+  extends: "plugin:fp/recommended",
   parserOptions: {
     ecmaVersion: 7,
     sourceType: "module",
     experimentalObjectRestSpread: true
   },
   plugins: [
-    "immutable",
+    "fp",
     "better"
   ],
   rules: {
-    // eslint-plugin-immutable rules
-    "immutable/no-let": 2,
-    "immutable/no-this": 2,
-    "immutable/no-mutation": 2,
     // eslint-plugin-better rules
-    "no-classes": 2,
-    "no-deletes": 2,
-    "no-exceptions": 2,
+    "better/no-ifs": 2,
+    "better/no-instanceofs": 2,
+    "better/no-new": 2,
+    "better/explicit-return": 2,
+    // disable things handled by eslint-plugin-fp
+    "no-classes": 0,
+    "no-deletes": 0,
+    "no-exceptions": 0,
     "no-exports": 0,
     "no-fors": 0,
     "no-function-expressions": 0,
-    "no-ifs": 2,
     "no-imports": 0,
-    "no-instanceofs": 2,
-    "no-new": 2,
-    "no-nulls": 2,
-    "no-reassigns": 2,
+    "no-nulls": 0,
+    "no-reassigns": 0,
     "no-switches": 0,
-    "no-this": 0, // handled by immutable
+    "no-this": 0,
     "no-typeof": 0,
-    "no-undefined": 2,
+    "no-undefined": 0,
     "no-variable-declaration": 0,
-    "no-whiles": 2,
-    "explicit-return": 2,
+    "no-whiles": 0,
     // eslint standard rules
     "no-var": 2,
     "prefer-spread": 2,
