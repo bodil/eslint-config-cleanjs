@@ -11,6 +11,8 @@ module.exports = {
     "import"
   ],
   rules: {
+    // disable some eslint-plugin-fp rules
+    "fp/no-rest-parameters": 0,
     // eslint-plugin-better rules
     "better/no-ifs": 2,
     "better/no-instanceofs": 2,
