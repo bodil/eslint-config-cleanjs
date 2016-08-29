@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cleanjs",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "An eslint config which reduces JS to a pure functional language",
   "main": "index.js",
   "keywords": [
