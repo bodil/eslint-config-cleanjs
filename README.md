@@ -31,7 +31,7 @@ install to use these presets:
 
 Just install this package somewhere your eslint can find it (`npm
 install -g eslint-config-cleanjs` if your eslint is installed with
-`-g` too), along with the two above mentioned plugins (`npm install -g
+`-g` too), along with the three above mentioned plugins (`npm install -g
 eslint-plugin-better eslint-plugin-fp eslint-plugin-import`), and put
 this in your `.eslintrc` or wherever you keep your project's eslint
 config:
