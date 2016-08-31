@@ -23,7 +23,7 @@ module.exports = {
     "fp/no-mutation": 2,
     "fp/no-nil": 2,
     "fp/no-proxy": 2,
-    "fp/no-rest-parameters": 0,
+    "fp/no-rest-parameters": 2,
     "fp/no-this": 2,
     "fp/no-throw": 2,
     "fp/no-unused-expression": 2,
@@ -55,7 +55,6 @@ module.exports = {
     "import/export": 2,
     // eslint standard rules
     "no-var": 2,
-    "prefer-spread": 2,
-    "prefer-rest-params": 2
+    "prefer-spread": 2
   }
 };
