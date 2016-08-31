@@ -1,5 +1,4 @@
 module.exports = {
-  extends: "plugin:fp/recommended",
   parserOptions: {
     ecmaVersion: 7,
     sourceType: "module",
@@ -11,14 +10,30 @@ module.exports = {
     "import"
   ],
   rules: {
-    // disable some eslint-plugin-fp rules
+    // eslint-plugin-fp rules
+    "fp/no-arguments": 2,
+    "fp/no-class": 2,
+    "fp/no-delete": 2,
+    "fp/no-events": 2,
+    "fp/no-get-set": 2,
+    "fp/no-let": 2,
+    "fp/no-loops": 2,
+    "fp/no-mutating-assign": 2,
+    "fp/no-mutating-methods": 2,
+    "fp/no-mutation": 2,
+    "fp/no-nil": 2,
+    "fp/no-proxy": 2,
     "fp/no-rest-parameters": 0,
+    "fp/no-this": 2,
+    "fp/no-throw": 2,
+    "fp/no-unused-expression": 2,
+    "fp/no-valueof-field": 2,
     // eslint-plugin-better rules
     "better/no-ifs": 2,
     "better/no-instanceofs": 2,
     "better/no-new": 2,
     "better/explicit-return": 2,
-    // disable things handled by eslint-plugin-fp
+    // explicitly disable things handled by eslint-plugin-fp
     "better/no-classes": 0,
     "better/no-deletes": 0,
     "better/no-exceptions": 0,
