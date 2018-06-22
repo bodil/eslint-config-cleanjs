@@ -1,3 +1,7 @@
+## DO NOT USE
+
+This project has never been seriously maintained, and you should be using [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp) directly instead.
+
 # eslint-config-cleanjs
 
 This is an ESLint configuration which aims to restrict you to a subset
