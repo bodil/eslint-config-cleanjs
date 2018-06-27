@@ -31,6 +31,12 @@ install to use these presets:
 * [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)
 * [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 
+## Instsallation
+
+```bash
+npm install --save-dev eslint-config-cleanjs
+```
+
 ## Usage
 
 Just install this package somewhere your eslint can find it (`npm
